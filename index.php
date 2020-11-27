@@ -20,7 +20,7 @@ function parsePage($origin, $url) {
     $prefix  = getcwd();
     if (count($links)) {
         foreach ($links as $link) {
-            // Page content
+            // Link content
             $text = $link->innertext;
             // Go through directory tree
             if ($text === 'tree') {
